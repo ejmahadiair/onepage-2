@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(218, 199, 165);
+    overflow: auto;
+}
+.head .logo{
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+}
+.head .sometext{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 150px;
+}
+.head .sometext .h1{
+    font-size: xx-large;
+}
+
+.mainkey{
+    margin: auto;
+    display: table;
+    border-radius: 5px;
+}
+.key{
+    float: left;
+    height: 50px;
+    display: grid;
+}
+.key input{
+    font-size: 20px;
+    width: 650px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.key button{
+    background-color: lawngreen;
+    width: 150px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.key button a{
+    text-decoration: none;
+    display: block;
+    
+}
+
+
+
